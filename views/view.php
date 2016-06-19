@@ -34,6 +34,18 @@
                 <p><?php dump($foo) ?></p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <dl>
+                    <dt>Tag</dt>
+                    <dd><?php echo $info->tag ?: 'Not available' ?></dd>
+                    <dt>Commit</dt>
+                    <dd><?php echo $info->commit ?: 'Not available' ?></dd>
+                    <dt>Build</dt>
+                    <dd><?php echo $info->build ?: 'Not available' ?></dd>
+                </dl>
+            </div>
+        </div>
     </div>
 </body>
 </html>
