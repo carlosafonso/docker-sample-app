@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-4">
                 <h3>BAR</h3>
-                <p><?php dump($foo) ?></p>
+                <p><?php dump($bar) ?></p>
             </div>
         </div>
         <div class="row">
